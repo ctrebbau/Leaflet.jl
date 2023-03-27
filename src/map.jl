@@ -50,7 +50,7 @@ end
     return WebIO.render(map.scope)
 end
 
-# return the html head/body and javascriopt for a leaflet map
+# return the html head/body and javascript for a leaflet map
 function leaflet_scope(layers, cfg::Config)
     # Define online assets
     urls = [
